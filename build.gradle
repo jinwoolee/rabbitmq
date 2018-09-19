@@ -1,0 +1,11 @@
+apply plugin: "java"
+
+repositories{
+	mavenCentral()
+}
+
+dependencies{
+	// https://mvnrepository.com/artifact/com.rabbitmq/amqp-client
+	compile group: 'com.rabbitmq', name: 'amqp-client', version: '4.0.2'
+	
+}
